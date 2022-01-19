@@ -1,0 +1,13 @@
+ $nomention
+
+$argsCheck[>1;ops ! @$username o comando não e assim e : '{c!trabalhar/imprego}'!]
+
+$title[💳..TRABALHO..💳]
+
+$description[@$username voce trabalhou como $message[1] e ganhou $random[100;900] de coins
+
+parabéns 🎉👏]
+
+$cooldown[1s;⛔ agora voce so vai poder trabalhar de novo so daqui a 9h!⛔]
+
+$setUserVar[banco;$sum[$getUserVar[banco];$random[100;900]]]
