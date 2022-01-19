@@ -1,0 +1,12 @@
+$nomention
+
+$argsCheck[>1;ops ! você não tem essa quantia!]
+
+$title[💳.SAQUE.💳]
+
+$description[@$username voce sacou $message[1] para seu banco!]
+
+$setUserVar[banco;$sum[$getUserVar[banco];$message[1]]]
+
+$setUserVar[cartão;$sub[$getUserVar[cartão];$message[1]]]
+
