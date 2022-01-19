@@ -1,0 +1,10 @@
+$nomention
+
+$onlyAdmin[voce não pode executar esse comando!]
+
+$title[💸ADDCOINS💸]
+
+$description[@$username pronto✅]
+
+$setUserVar[coins;$sum[$getUserVar[coins];$message[1]]]
+
